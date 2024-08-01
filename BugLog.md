@@ -1,4 +1,6 @@
-﻿|State|IssueID|Description|
+﻿# BugLog
+
+|State|IssueID|Description|
 |---|---|---|
 |Fixed|ERRO2024072401|Dublicate组件时，实例中的组件未Dublicate，导致出现编辑蓝图中被Dublicate的组件的属性时，找不到实例中对应的组件，出现Null异常|
 ||SUGG2024072601|组件监视器宽度在使用滚轮或者打字的时候不稳定|
