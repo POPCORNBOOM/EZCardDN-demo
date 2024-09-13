@@ -1,0 +1,30 @@
+name: Trigger API on New Release
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  call-api:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Get Release Tag Name and Zipball URL
+      id: get_release_info
+      run: |
+        echo "RELEASE_TAG=${GITHUB_REF#refs/tags/}" >> $GITHUB_ENV
+        echo "ZIPBALL_URL=${{ github.event.release.zipball_url }}" >> $GITHUB_ENV
+
+    - name: Call External API
+      env:
+        RELEASE_TAG: ${{ env.RELEASE_TAG }}
+        ZIPBALL_URL: ${{ env.ZIPBALL_URL }}
+      run: |
+        curl -X POST \
+        -H "Content-Type: application/json" \
+        -H "X-LC-Id: kJKjJldQmSWTiSbNBnB1uf7y-gzGzoHsz" \
+        -H "X-LC-Key: abyfiDAlUcT1OIBr01aL1ISO" \
+        -d "{\"tag_name\":\"$RELEASE_TAG\", \"zipball_url\":\"$ZIPBALL_URL\"}" \
+        https://kjkjjldq.lc-cn-n1-shared.com/1.1/classes/ReleaseMsgTest
