@@ -26,3 +26,5 @@
 |Adopted|SUGG2024092201|为表格导出成功添加提示|
 |Fixed|ISSU2024092201|项目文件因为转移导致的异常，建议改为打开ezp文件后立即修改ProjecfLocation|
 |Adopted|SUGG2024092301|Enter键结束键入组件名|
+|Adopted|SUGG2024092601|预览从原来的渲染图片改为直接渲染控件，大体量控件集合改为虚拟化|
+
