@@ -21,10 +21,12 @@ jobs:
       env:
         RELEASE_TAG: ${{ env.RELEASE_TAG }}
         ZIPBALL_URL: ${{ env.ZIPBALL_URL }}
+        LC_ID: ${{ secrets.LC_ID }}
+        LC_KEY: ${{ secrets.LC_KEY }}
       run: |
         curl -X POST \
         -H "Content-Type: application/json" \
-        -H "X-LC-Id: kJKjJldQmSWTiSbNBnB1uf7y-gzGzoHsz" \
-        -H "X-LC-Key: abyfiDAlUcT1OIBr01aL1ISO" \
+        -H "X-LC-Id: $LC_ID" \
+        -H "X-LC-Key: $LC_KEY" \
         -d "{\"tag_name\":\"$RELEASE_TAG\", \"zipball_url\":\"$ZIPBALL_URL\"}" \
         https://kjkjjldq.lc-cn-n1-shared.com/1.1/classes/ReleaseMsgTest
