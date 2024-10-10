@@ -9,3 +9,9 @@
 
 * 主、次级版本号（主版本号.次级版本号.修订版本号-测试名.patch）更高的版本不兼容更低版本的项目文件，尝试强行打开可能会打开失败或出现兼容性问题
 
+---
+
+欢迎关注、支持、分享
+
+## Stargazers over time
+[![Stargazers over time](https://starchart.cc/POPCORNBOOM/EZCardDN-demo.svg?variant=adaptive)](https://starchart.cc/POPCORNBOOM/EZCardDN-demo)
