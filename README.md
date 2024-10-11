@@ -1,4 +1,5 @@
 # EZCARD DOT NET DEMO
+
 ![bannergA](https://github.com/user-attachments/assets/c50ee26a-3321-4d36-b175-935a7fc8c47e)
 
 ## 本仓库仅提供发行版文件，暂无开源代码
@@ -17,5 +18,7 @@
 欢迎关注、支持、分享
 
 ## Stargazers over time
+
 [![Stargazers over time](https://starchart.cc/POPCORNBOOM/EZCardDN-demo.svg?variant=adaptive)](https://starchart.cc/POPCORNBOOM/EZCardDN-demo)
+
 ![EZCardPosterNewA](https://github.com/user-attachments/assets/da80c7bb-5f24-42b4-abd4-576c6ea08439)
