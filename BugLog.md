@@ -37,10 +37,12 @@
 |Fixed|ERRO2024100401|双击创建组件发生bug|
 |Fixed|ISSU2024100501|点击返回主页的按钮会弹出无关窗口|
 ||SUGG2024100601|完善导出页面，自动排版，保存到PNG或PDF，或直接发送到系统打印服务|
-||ISSU2024100901|EZML的`<br>`标签工作不正常|
+|Fixed|ISSU2024100901|EZML的`<br>`标签工作不正常|
 |Fixed|ISSU2024101001|打印布局时即便页面刚好被占满还是会新建另一对空白页|
 ||ERRO2024101001|空引用异常 at EZcarddotNet.Widget.get_WidgetPath() in D:\Projects\EZcard\EZcarddotNet\EZcarddotNet\Classes\Widget.cs:line 768 at EZcarddotNet.Widget.IsChildOf(Widget child, Widget parent) in D:\Projects\EZcard\EZcarddotNet\EZcarddotNet\Classes\Widget.cs:line 1286|
 ||ERRO2024101002|空引用异常 at EZcarddotNet.Classes.ViewModels.BluePrintDesignerViewModel.HandleTreeRectMouseLeave(Widget widget) in D:\Projects\EZcard\EZcarddotNet\EZcarddotNet\Classes\ViewModels\BluePrintDesignerViewModel.cs:line 1119|
 ||SUGG2024101101|构造“快速EzCard设计语言（QED）”，用于读取并快速生成卡牌组件|
 |Adopted|SUGG2024101701|图像资源改为相对路径|
 |Adopted|SUGG2024101701|添加Ctrl+S保存快捷键|
+||SUGG2024111901|为图像组件添加色相属性|
+|Adopted|SUGG2024111902|组件添加“设为卡牌大小”|
