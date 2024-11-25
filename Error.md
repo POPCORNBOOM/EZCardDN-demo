@@ -2948,3 +2948,60 @@ PresentationFramework
    at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
    at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
 
+
+|Checked|Type|DateTime|MachineName|OSVersion|UserName|
+|---|---|---|---|---|---|
+|[]|Error|2024-11-22 20:54:54|FOLIC|Microsoft Windows NT 10.0.26100.0|YiguWang|
+
+* Message:在窗口关闭期间，无法将可见性设置为可见，也无法调用 Show、ShowDialog、Close 或 WindowInteropHelper.EnsureHandle。
+* Source:
+PresentationFramework
+* InnerException:
+
+* StackTrace:
+   at System.Windows.Window.VerifyNotClosing()
+   at System.Windows.Window.InternalClose(Boolean shutdown, Boolean ignoreCancel)
+   at System.Windows.Application.DoShutdown()
+   at System.Windows.Application.ShutdownImpl()
+   at System.Windows.Application.ShutdownCallback(Object arg)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
+
+|Checked|Type|DateTime|MachineName|OSVersion|UserName|
+|---|---|---|---|---|---|
+|[]|Error|2024-11-22 21:09:52|FOLIC|Microsoft Windows NT 10.0.26100.0|YiguWang|
+
+* Message:在窗口关闭期间，无法将可见性设置为可见，也无法调用 Show、ShowDialog、Close 或 WindowInteropHelper.EnsureHandle。
+* Source:
+PresentationFramework
+* InnerException:
+
+* StackTrace:
+   at System.Windows.Window.VerifyNotClosing()
+   at System.Windows.Window.InternalClose(Boolean shutdown, Boolean ignoreCancel)
+   at System.Windows.Application.DoShutdown()
+   at System.Windows.Application.ShutdownImpl()
+   at System.Windows.Application.ShutdownCallback(Object arg)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
+
+|Checked|Type|DateTime|MachineName|OSVersion|UserName|
+|---|---|---|---|---|---|
+|[]|Error|2024-11-25 16:00:27|FOLIC|Microsoft Windows NT 10.0.26100.0|YiguWang|
+
+* Message:在窗口关闭期间，无法将可见性设置为可见，也无法调用 Show、ShowDialog、Close 或 WindowInteropHelper.EnsureHandle。
+* Source:
+PresentationFramework
+* InnerException:
+
+* StackTrace:
+   at System.Windows.Window.VerifyNotClosing()
+   at System.Windows.Window.InternalClose(Boolean shutdown, Boolean ignoreCancel)
+   at System.Windows.Application.DoShutdown()
+   at System.Windows.Application.ShutdownImpl()
+   at System.Windows.Application.ShutdownCallback(Object arg)
+   at System.Windows.Threading.ExceptionWrapper.InternalRealCall(Delegate callback, Object args, Int32 numArgs)
+   at System.Windows.Threading.ExceptionWrapper.TryCatchWhen(Object source, Delegate callback, Object args, Int32 numArgs, Delegate catchHandler)
+
