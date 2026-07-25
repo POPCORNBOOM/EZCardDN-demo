@@ -2,6 +2,11 @@
 
 [新一代开源跨平台版本化桌游项目工作台 OpenCard 正在早期实验性版本测试中，点击访问项目仓库](https://github.com/POPCORNBOOM/OpenCard)
 
+
+<details>
+<summary>点击展开</summary>
+<p>
+  
 # EZCard 简单卡牌
 
 EZCARD 是一款面向 **桌游开发者** 和 **个人创意服务者** 的集成化卡牌开发软件。
@@ -62,7 +67,10 @@ EZCARD 是一款面向 **桌游开发者** 和 **个人创意服务者** 的集�
 
 [![Stargazers over time](https://starchart.cc/POPCORNBOOM/EZCardDN-demo.svg?variant=adaptive)](https://starchart.cc/POPCORNBOOM/EZCardDN-demo)
 
+
 ## 海报
 
 ![EZCardPosterNewA](https://github.com/user-attachments/assets/da80c7bb-5f24-42b4-abd4-576c6ea08439)
 
+</p>
+</details>
